@@ -10,7 +10,6 @@
 
     b = meanOfY - (m * meanOfX)
 */
-var point = {x: undefined, y: undefined};
 var data = [];
 var m = 1;
 var b = 0;
