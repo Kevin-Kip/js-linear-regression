@@ -13,8 +13,6 @@
 var data = [];
 var m = 1;
 var b = 0;
-var meanOfX;
-var meanOfY;
 
 data.push({x:1,y:1},{x:2,y:3},{x:3,y:4},{x:4,y:3},{x:5,y:7},{x:6,y:10},{x:7,y:7},{x:8,y:4},{x:9,y:7},{x:10,y:6});
 
@@ -25,8 +23,8 @@ function ordinaryLeastSquares (inputX) {
         xSum += data[i].x;
         ySum += data[i].y;
     }
-    meanOfX = xSum / data.length;
-    meanOfY = ySum / data.length;
+    var meanOfX = xSum / data.length;
+    var meanOfY = ySum / data.length;
 
     var numerator = 0;
     var denominator = 0;
