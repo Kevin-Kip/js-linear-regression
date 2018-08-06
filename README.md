@@ -5,9 +5,10 @@ One for the `Ordinary Least Squares` method and another for the `Gradient Descen
 ## Basics
 Linear Regression is calculated using the method `y = mx + b`,
 where: 
-1. y is the output, m is the slope of the line, 
-2. x is the input and 
-3. b is the y-intercept.
+1. y is the output, 
+2. m is the slope of the line, 
+3. x is the input and 
+4. b is the y-intercept.
 
 ## Easy, right? :smile:
 Linear Regression is easy to understand. 
