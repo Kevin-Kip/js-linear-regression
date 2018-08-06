@@ -13,3 +13,9 @@ Linear Regression is easy to understand.
 `m = sum of (eachX - meanOfX)*(eachY - sumOfY) / sum of(square of (eachX - meanOfX))`
 
 `b = meanOfY - (m * meanOfX)`
+
+## Running the code
+I use **live-server** which can be installed by running ```bash npm install live-server```. 
+Download the code, navigate into the root directory and run `live-server` from your terminal.
+Head over to the console in **DevTools** cond call ```javascript ordinaryLeastSquares(x)``` method and pass an input value **x**.
+
