@@ -19,10 +19,8 @@ Linear Regression is easy to understand.
 `b = meanOfY - (m * meanOfX)`
 
 ## Running the code
-I use **live-server** which can be installed by running ```bash
- npm install live-server```. 
+I use **live-server** which can be installed by running ```npm install live-server```. 
 1. Download the code, 
 2. navigate into the root directory and run `live-server` from your terminal.
-3. Head over to the console in **DevTools** and call ```javascript 
-ordinaryLeastSquares(x)``` method passing an input value **x**.
+3. Head over to the console in **DevTools** and call ```ordinaryLeastSquares(x)``` method passing an input value **x**.
 
